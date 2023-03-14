@@ -1,0 +1,35 @@
+import React from "react";
+import { Component, useState } from "react";
+import NavBar from "./NavBar";
+import NavIcon from "./NavIcon";
+// const [scrollTop, setScrollTop] = useState("bg-dark");
+class Div extends Component {
+  state = {
+    color: "white",
+  };
+
+  listenScrollEvent = (e) => {
+    if (window.scrollY > 40) {
+      this.setState({ color: "red" });
+    } else {
+      this.setState({ color: "blue" });
+    }
+  };
+
+  componentDidMount() {
+    window.addEventListener("scroll", this.listenScrollEvent);
+  }
+
+  render() {
+    return (
+      <>
+        <div style={{ backgroundColor: this.state.color }}>
+          <div>
+            <p className="text-danger fw-bold h4 fixed-top ">Movie App</p>
+          </div>
+        </div>
+      </>
+    );
+  }
+}
+export default Div;

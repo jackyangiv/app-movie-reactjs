@@ -1,0 +1,175 @@
+.box {
+  position: relative;
+  text-align: left;
+  color: white;
+}
+.bottom {
+  position: absolute;
+  bottom: 10rem;
+  left: 1.5rem;
+  width: 50%;
+}
+.overflow1 {
+  width: auto;
+}
+@media screen and (min-width: 390px) {
+  .bottom {
+    position: absolute;
+    top: 3rem;
+    left: 0.5rem;
+    width: 80%;
+    height: 150px;
+  }
+  .overflow1 {
+    height: 50px;
+    overflow: auto;
+  }
+}
+@media screen and (min-width: 414px) {
+  .bottom {
+    position: absolute;
+    top: 3.5rem;
+    left: 0.5rem;
+    width: 80%;
+    height: 150px;
+  }
+  .overflow1 {
+    height: 60px;
+    overflow: auto;
+  }
+}
+@media screen and (min-width: 540px) {
+  .bottom {
+    position: absolute;
+    top: 8rem;
+    left: 1rem;
+    width: 80%;
+    height: 150px;
+  }
+  .overflow1 {
+    height: 80px;
+    overflow: auto;
+  }
+}
+@media screen and (min-width: 736px) {
+  .bottom {
+    position: absolute;
+    top: 12rem;
+    left: 1.5rem;
+    width: 80%;
+    height: 150px;
+  }
+  .overflow1 {
+    height: 200px;
+    overflow: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .bottom {
+    position: absolute;
+    top: 14rem;
+    left: 1.5rem;
+    width: 80%;
+    height: 150px;
+  }
+  .overflow1 {
+    height: 200px;
+    overflow: auto;
+  }
+}
+@media screen and (min-width: 820px) {
+  .bottom {
+    position: absolute;
+    top: 12rem;
+    left: 1.5rem;
+    width: 80%;
+    height: 150px;
+  }
+  .overflow1 {
+    height: 200px;
+  }
+}
+@media screen and (min-width: 844px) {
+  .bottom {
+    position: absolute;
+    top: 12rem;
+    left: 1.5rem;
+    width: 80%;
+    height: 150px;
+  }
+  .overflow1 {
+    height: 400px;
+  }
+}
+@media screen and (min-width: 896px) {
+  .bottom {
+    position: absolute;
+    top: 12rem;
+    left: 1.5rem;
+    width: 80%;
+    height: 150px;
+  }
+  .overflow1 {
+    height: auto;
+  }
+}
+@media screen and (min-width: 912px) {
+  .bottom {
+    position: absolute;
+    top: 15rem;
+    left: 1.5rem;
+    width: 80%;
+    height: 150px;
+  }
+  .overflow1 {
+    height: auto;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .bottom {
+    position: absolute;
+    top: 17rem;
+    left: 2rem;
+    width: 80%;
+    height: 150px;
+  }
+  .overflow1 {
+    height: auto;
+  }
+}
+@media screen and (min-width: 1180px) {
+  .bottom {
+    position: absolute;
+    top: 20rem;
+    left: 2.5rem;
+    width: 80%;
+    height: 150px;
+  }
+  .overflow1 {
+    height: auto;
+  }
+}
+@media screen and (min-width: 1368px) {
+  .bottom {
+    position: absolute;
+    top: 30rem;
+    left: 2.5rem;
+    width: 80%;
+    height: 150px;
+  }
+  .overflow1 {
+    height: auto;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .bottom {
+    position: absolute;
+    top: 30rem;
+    left: 2.5rem;
+    width: 80%;
+    height: 150px;
+  }
+  .overflow1 {
+    height: auto;
+  }
+}
